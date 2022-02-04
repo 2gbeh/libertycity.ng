@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* 
+CSS Document
+define('HEX_PRI','#0093DD');
+define('HEX_SEC','#007BB8');
+define('HEX_ALT','#75C5F0');
+*/
+.theme-background {
+	background-color:#0093DD;}
+.theme-color {
+	color:#0093DD;}
+.theme-border {
+	border-color:#0093DD;}
+
+
+.theme-background-sec {
+	background-color:#007BB8;}
+.theme-color-sec {
+	color:#007BB8;}
+.theme-border-sec {
+	border-color:#007BB8;}
+	
+	
+.theme-background-alt {
+	background-color:#75C5F0;}
+.theme-color-alt {
+	color:#75C5F0;}
+.theme-border-alt {
+	border-color:#75C5F0;}
+	
+	
+.theme-background- {
+	background-color:#16BC00;}
+.theme-color {
+	color:#16BC00;}
+.theme-border {
+	border-color:#16BC00;}
+	
+	
+	
+	
+	
+	
+	
+	

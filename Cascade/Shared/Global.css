@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color:#F7F7F7;	
+	font-family:Gotham;}
+	
+	
+qq {
+	font-family:Gotham;
+	font-size:18px;}	
+	
+
+.wrap,
+.chassis {
+	text-align:center;}
+
+
+
+.header-frame {}
+.header {
+	padding:10px;
+	color:#FFF;}
+.header img {
+	width:30px;}
+.header .typeface {
+	text-transform:capitalize;
+	font-size:24px;
+/*	font-weight:500;*/}
+.header .appname {
+	padding-left:10px;
+	text-transform:capitalize;
+	font-size:24px;
+	line-height:1.0;
+	display:inline-block;
+	vertical-align:top;}
+
+
+
+.nav {
+	background-color:#FFF;
+	border-bottom:solid thin #DDD;}
+.nav li a {
+	padding:15px 20px;
+	text-transform:capitalize;
+	border-bottom:solid #FFF;
+	display:block;}
+.nav li a:hover {
+	background-color:#F7F7F7;
+	border-bottom:solid #F7F7F7;}	
+.nav li a #spanner {
+	padding:0 5px;
+	margin:0;
+	line-height:0.5;
+	font-size:20px;
+	font-weight:500;}
+
+
+
+.search {
+	visibility:hidden;}
+.search input {
+	padding:0 20px;
+	background-color:#EDF0F3;
+	font-size:18px;
+	width:95%;
+	border:solid thin #DDD;
+	border-radius:5px;}
+.search #cancel {
+	padding:0 10px 0 0;
+	color:#999;
+	font-size:24px;
+	font-weight:400;
+	line-height:0.6;
+	display:inline-block;
+	cursor:pointer;}
+
+
+
+.mantra {
+	padding-bottom:20px;
+	text-align:center;
+	text-shadow:0 1px 0 rgba(255, 255, 255, 0.4);}
+.mantra h1 {
+	padding:5px 0;}
+.mantra h1::first-letter,
+.mantra h2::first-letter {
+	text-transform:capitalize;}
+.mantra kbd {
+/*	font-size:35px;*/
+	font-weight:bold;}
+
+
+
+.feeds {
+/*	background-color:yellow;*/}
+.feeds ul li {
+	margin:10px;
+	width:300px;
+	display:inline-block;}	
+
+
+
+.cards {
+	margin:10px;
+	background-color:#FFF;
+	text-align:left;
+	width:350px;
+	box-shadow:0 1px 2px 0 #DDD;
+	box-sizing:border-box;
+	display:inline-block;
+	vertical-align:top;}	
+
+
+	
+.footer {
+	padding:10px;
+	background-color:#FFF;}
+.footer li {
+	padding:5px 10px;
+	color:#666;
+	text-transform:capitalize;}
+.footer li a:hover {
+	text-decoration:underline;}	
+	
+	

@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+.sitemap {
+	margin-bottom:40px;
+	background-color:#FFF;}
+.sitemap .article {
+	padding:10px;
+	color:#666;}	
+.sitemap ul.tab li {
+	padding:0 0 0 10px;}	
+.sitemap ul.tab li a {
+	padding:5px 20px;
+	text-transform:capitalize;
+	display:block;}
+.sitemap ul.tab li a:hover {
+	color:#666;}
+.sitemap ul.tab li a#selected {
+	background-color:#F7F7F7;
+	color:#666;
+	text-transform:capitalize;
+	border:solid thin #DDD;
+	border-bottom:0;
+	border-radius:5px 5px 0 0;}
+.sitemap .iframe {
+	padding:20px;
+	margin:0 10px 20px;
+	background-color:#F7F7F7;
+	border:solid thin #DDD;
+	border-top:0;
+	border-radius:0 0 5px 5px;}
+.sitemap .iframe .label {
+	padding-bottom:10px;
+	color:#666;}
+.sitemap .iframe a:hover {
+	color:inherit;
+	font-weight:bold;}
+.sitemap .sitemap-footer {
+	padding:10px 15px;}
+	
+	
+	
+	
+	

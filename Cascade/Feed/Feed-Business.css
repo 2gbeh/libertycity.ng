@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+.nav li a {
+	padding:0;}
+.nonapp .each {
+	padding:15px 20px;}
+
+a.alt-btn#partner {
+	padding-left:50px;	
+	padding-right:50px;
+	color:#fff;}
+	
+.tile-business#modal {
+	padding:50px 20px;	
+	background-color:#fff;
+	width:250px;
+ 	display:none;}
+.tile-business#modal .subject {
+	padding:10px 0 0 0;}
+.tile-business#modal .subject a {	
+	text-decoration:underline;
+	font-size:14px;
+	display:inline;}	
+	
+	
+.tile-business td {
+	padding:20px;
+	background-color:#FFF;
+	text-align:left;
+	text-transform:capitalize;	
+	box-shadow:0 1px 2px 0 #DDD;}
+.tile-business .cost {
+	text-align:right;
+	font-size:52px;}
+.tile-business .service {
+	font-size:30px;
+	font-weight:bold;}	
+.tile-business .duration {
+	padding:10px 0 0 0;}
+.tile-business .todo {
+	padding:0 10px 0 20px;
+	margin:10px 0;
+	border-left:solid #16BC00;}
+.tile-business .each {
+	padding:5px 0;}
+.tile-business .rfid {
+	padding:10px 0 0 0;
+	color:#666;
+	font-size:14px;}		
+	
+	

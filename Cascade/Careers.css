@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+.careers a.pri-btn {
+	padding:20px;
+	margin:10px 0 15px;
+	color:#FFF;
+	text-transform:capitalize;}
+.careers .email-link {
+	color:inherit;
+	text-decoration:underline;
+	cursor:pointer;}
+.careers .title {
+	font-size:18px;}
+.careers .subtitle {
+	color:#666;}	
+.careers .article {
+	margin:15px 0;
+	font-size:14px;}	
+.careers #jude {
+	border-left:solid #2B5797;}	
+.careers #felicia {
+	border-left:solid #FF0097;}	
+.careers #bob {
+	border-left:solid #060;}		
+
+
+
+
+

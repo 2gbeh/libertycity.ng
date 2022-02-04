@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* 
+CSS Document
+define('HEX_PRI','#0093DD');
+define('HEX_SEC','#007BB8');
+define('HEX_ALT','#75C5F0');
+*/	
+.header {
+	background-color:#0093DD;}
+
+.nav li a#selected {
+	color:#0093DD;	
+	border-bottom:solid #0093DD;}
+
+
+.search #cancel:hover {
+	color:#0093DD;}
+
+
+.mantra a {
+	color:#0093DD;}
+
+.about li.title {
+	color:#0093DD;}
+.about li .position {
+	color:#0093DD;}	
+.about q {
+	color:#0093DD;}
+
+.careers .email-link:hover {
+	color:#0093DD;}
+
+.tile-business#modal .subject a {
+	color:#0093dd;}
+	
+.sitemap a {
+	color:#0093DD;}
+
+.tile-news td.column {
+	color:#0093DD;}
+.tile-news td.writeup .article a {
+	color:#0093DD;}			
+.tile-news td.writeup .base .read {
+	color:#0093DD;}	

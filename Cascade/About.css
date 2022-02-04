@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+.about {
+	padding:20px 0;
+	text-align:center;}
+.about img {
+	width:50px;}
+.about h2 {
+	padding:10px 0;
+	text-transform:capitalize;}
+.about ul {
+	margin:0 50px;
+	width:400px;
+	display:inline-block;
+	vertical-align:top;}
+.about ul li {
+	text-align:left;
+	text-transform:capitalize;}	
+.about ul li.title {
+	text-transform:uppercase;}
+.about ul li {
+	padding:15px 0;
+	display:block;}
+.about ul li .division {
+	color:#666;}
+.about ul li .division #each {
+    display:inline-block;}	
+.about .author {
+	margin:15px 0;
+	font-size:15px;
+	font-style:italic;}
+
+
+
+

@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+.tile-news table {
+	background-color:#FFF;
+	box-shadow:0 1px 2px 0 #DDD;}
+.tile-news td {
+	padding:10px;
+	text-align:left;}
+	
+
+.tile-news td.column {
+	background-color:#F7F7F7;
+	padding-bottom:10px;
+	text-transform:capitalize;}
+.tile-news td.column #spanner {
+	margin:5px;
+	line-height:0.5;
+	font-size:20px;}
+.tile-news td.column a:hover {
+	text-decoration:underline;
+	cursor:pointer;}
+
+
+.tile-news td.image {
+/*	background-image:url("../apps/news/Media/Uploads/Article/Chrysanthemum.jpg");*/
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-attachment:scroll;
+	background-size:cover;
+	height:150px;}
+
+
+.tile-news td.writeup {}
+.tile-news td.writeup .headline {
+    font-size:20px;
+    font-weight:bold;}
+
+
+.tile-news td.writeup .meta {
+	padding:5px 0;
+	color:#666;}
+	
+	
+.tile-news td.writeup .article {}
+	
+		
+.tile-news td.writeup .base {
+	color:#666;
+	padding:10px 5px 0;
+	margin:10px 0 0;
+	text-transform:capitalize;
+	border-top:solid thin #DDD;}	
+.tile-news td.writeup .base div {
+	display:inline-block;
+	clear:both;}
+.tile-news td.writeup .crt {}
+.tile-news td.writeup .read {
+	float:right;}
+	
+	
+	
