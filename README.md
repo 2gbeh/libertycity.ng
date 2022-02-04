@@ -1,2 +1,3 @@
-# liberty-city-ng
-Internet Company
+# lcity-ng
+Libertycity Nigeria
+
