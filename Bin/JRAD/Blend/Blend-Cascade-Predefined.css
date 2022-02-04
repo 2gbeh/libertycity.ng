@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* CSS Document */
+.container,
+.wrap,
+.chassis {
+	margin:0 auto;
+	box-sizing:border-box;}
+
+.block {
+	display:block;}
+.inline {
+	display:inline-block;}
+.hidden {
+	display:none;}
+
+
+.anchor,
+.anchor:link {
+	color:#0000EE;
+	text-decoration:underline;}
+.anchor:visited {
+	color:#551A8B;}
+.anchor:hover {
+	color:#551A8B;
+	cursor:pointer;}
+.anchor:active,
+.anchor:focus {
+	color:#EE0000;}
+.dwl-btn {
+	padding:5px 10px;
+	text-transform:capitalize;
+	font-size:12px;
+	border:solid thin #CCC;
+	border-left:solid #EE0000;}
+.dwl-btn:hover {
+	background-color:#DDD;}	
+
+
+.pri-btn,
+.sec-btn,
+.alt-btn {
+	padding:10px 20px;
+	margin:10px 0 0 0;
+	background-color:#0093DD;
+	color:#FFF;
+	text-decoration:none;
+	border-radius:5px;
+	cursor:default;	
+	display:inline-block;}	
+.sec-btn {
+	background-color:transparent;
+	color:#0093DD;
+	border:solid thin #0093DD;}
+.alt-btn {
+	background-color:#16BC00;}		
+.pri-btn:hover {
+	background-color:#007BB8;}
+.sec-btn:hover {
+	background-color:#DDD;}
+.alt-btn:hover {
+	background-color:#090;}
+
+
+.text-shadow {
+	text-shadow:0 1px 0 rgba(255, 255, 255, 0.4);}
+.bold {
+	font-weight:bold;}
+.italics {
+	font-style:italic;}
+.under {
+	text-decoration:underline;}
+.nunder {
+	text-decoration:none;}
+.caseup {
+	text-transform:uppercase;}
+.casedown {
+	text-transform:lowercase;}	
+.casenone {
+	text-transform:none;}
+.center {
+	text-align:center;}
+.middle {
+	margin:0 auto;
+	width:50%;}
+.super {
+	color:red;
+	font-weight:bold;}
+.bullet {
+	margin:0 5px 0 0;
+	background-color:#000;
+	width:10px;
+	height:10px;
+	display:inline-block;}	
+.censor {
+	background-color:#000;
+	color:#000;}
+.shadow {
+	box-shadow:0 1px 2px 0 #DDD;}
+.watermark {
+	color:#EDEDED;
+	font-size:50px; 
+	position:absolute;	
+	z-index:2;}
+
+
+.hr, .ihr {
+	margin:10px 0 5px 0;
+	border-top:solid thin #DDD;}
+.ihr {
+	display:inline-block;}
+
+
+.ribbon {
+	border:0;
+	border-left:solid 5px #0093DD;}
+.border-top {
+	border:0;	
+	border-top:solid thin #DDD;}
+.border-top:first-child {
+	border:0;}	
+.border-bottom {
+	border:0;	
+	border-bottom:solid thin #DDD;}	
+.border-bottom:last-child {
+	border:0;}	
+
+
+.red {
+	color:#F00;}
+.yellow {
+	color:#FF0;}	
+.blue {
+	color:#0093DD;}	
+.green {
+	color:#16BC00;}			
+.hight-red {
+	background-color:#F00;}
+.hight-yellow {
+	background-color:#FF0;}	
+.hight-blue {
+	background-color:#0093DD;}	
+.hight-green {
+	background-color:#16BC00;}			
+
+
+.overflow {
+	overflow:auto;}	
+.float-left {
+	float:left;
+	display:inline-block;}
+.float-right {
+	float:right;
+	display:inline-block;}
+.clear {
+	clear:both;}
+.bottom-left {
+	left:20px;
+	bottom:10px;
+	position:fixed;}
+.bottom-right {
+	right:20px;
+	bottom:10px;
+	position:fixed;}
+.static {
+	width:100%;
+	position:fixed;}
+	
+	
+.cursor {
+	cursor:pointer;}
+.legend_div {
+	margin:20px 0;
+	display:block;}	
+.legend_span {
+	display:inline-block;
+	vertical-align:middle;}
+.border_radius {
+	border:solid thin inherit;
+	border-radius:60px;}
+.box_shadow {
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-attachment:scroll;
+	background-size:cover;
+/*	width:250px;
+	height:250px;*/
+	box-shadow:0 1px 2px 0 #DDD;}
+
+
+.rotate-up,
+.rotate-right,
+.rotate-down,
+.rotate-left {
+	display:inline-block};
+.rotate-up {
+	transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);}
+.rotate-down {
+	transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);}
+.rotate-right {
+	transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);}
+.rotate-left {
+	transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);}
+	
+
+.JSP_ASCII, .JSP_ASCII span {
+	display:inline-block;}
+.JSP_ASCII #up {
+	transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);}
+.JSP_ASCII #down {
+	transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);}	
+

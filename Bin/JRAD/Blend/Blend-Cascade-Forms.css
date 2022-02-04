@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+form {	
+	width:100%;
+	box-sizing:border-box;}
+form a {
+	text-decoration:underline;}	
+legend {
+	text-transform:capitalize;}
+label {
+	text-transform:capitalize;	
+	display:inline-block;
+	cursor:pointer;}	
+label:after {
+	content:" :";}	
+label.info,
+label.checkbox {
+	color:#666;
+	text-transform:none;
+	display:inline-block;}
+label.info::after,
+label.checkbox::after {
+	content:'';}
+label.checkbox {
+	padding:0 0 0 4px;
+	color:inherit;
+	display:inline-block;}
+
+input,
+select,
+textarea {
+	color:#333;
+	padding:10px;
+	margin:10px 0 0 0;		
+	height:3em;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	box-sizing:border-box;}
+textarea {
+	height:5em;
+	font-size:14px;}
+select option {
+	padding:10px;}
+input[type="file"] {
+	padding:5px 10px;
+	height:3em;
+	border:solid thin #CCC;
+	border-top:solid thin #999;
+	border-radius:2px;}
+input[type="checkbox"] {
+	margin-right:5px;}
+input[type="reset"],
+input[type="submit"],
+input[type="button"] {
+	background-color:#ECECEC;
+	text-transform:capitalize;
+	font-size:16px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	border:solid thin transparent;
+	border-radius:2px;
+	vertical-align:top;}
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+	background-color:#D2D2D2;}
+input[type="submit"].primary {
+	background-color:#0093DD;
+	color:#FFF;}
+input[type="submit"].primary:hover {
+	background-color:#007BB8;}		
+
+
+
+
+
+
+
+
+

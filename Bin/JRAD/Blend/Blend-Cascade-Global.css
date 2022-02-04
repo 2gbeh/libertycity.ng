@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+/* 
+	BLN_HEXCODE
+	------------------
+	Cyan 	#0093DD
+	Sea		#75C5F0	
+	Dark	#007BB8
+	Teal 	#008080
+	Dragon 	#006666	
+	Call	#16BC00
+	Uncall	#090	
+	Blood	#EE1111
+	Border	#DDD
+	Footer	#373435
+	Whitish #F7F7F7
+	Android #E0E0E0
+	Bg		#EEEEEE
+	Watermark #EDEDED		
+*/
+
+body {
+	padding:0; 
+	margin:0;
+	color:#333;	
+	font:100%/1.4 "Segoe UI","Segoe UI Light","Segoe Script";
+/*	font-size:14px;*/}
+h1, h2, h3, h4, h5, h6 {
+	margin:0 10px;
+	font-weight:normal;}
+/* a:link, a:visited, a:hover, a:active, a:focus */
+a {
+	text-decoration:none;
+	color:inherit;
+	cursor:pointer;}
+q {
+	font-family:"Arial Black", Gadget, sans-serif;	
+	font-size:30px;
+	font-style:italic;	
+	line-height:0.6;
+	display:block;}
+sup {
+	margin:0;
+	padding:0;}
+cur {
+	text-transform:uppercase;
+	font-size:10px;
+	font-weight:bold;}	
+
+ol, ul, dl {
+	padding:0;
+	margin:0;
+	list-style-type:none;}
+ol, ul {
+	vertical-align:top;}
+li {
+	vertical-align:top;
+	display:inline-block;}
+table, thead, tbody, tfoot {
+	padding:0;
+	margin:0;
+	width:100%;
+	border-collapse:collapse;}	
+tr {
+	vertical-align:top;}

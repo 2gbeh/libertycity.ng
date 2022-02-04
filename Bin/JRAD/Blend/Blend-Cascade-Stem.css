@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* CSS Document */
+.STEM_WRAP_5, 
+.STEM_WRAP_10, 
+.STEM_WRAP_15,
+.STEM_WRAP_20 {
+	padding:20px;}
+	
+.STEM_CHASSIS_5, 
+.STEM_CHASSIS_10, 
+.STEM_CHASSIS_15,
+.STEM_CHASSIS_20 {
+	padding:0;}	
+
+.STEM_LOGO,
+.STEM_TYPEFACE, 
+.STEM_SIGNAGE {
+	font-size:25px;
+	display:inline-block;}
+.STEM_LOGO img, 
+.STEM_TYPEFACE img, 
+.STEM_SIGNAGE img {
+	padding:0 5px 0 0;
+	width:40px;
+	vertical-align:text-top;}
+	
+	
+.STEM_INSTA {
+	background-color:#F7F7F7;	
+	border-bottom:solid thin #DDD;}
+.STEM_INSTA:hover {
+	background-color:#EDEDED;}
+.STEM_INSTA a {
+	padding:10px 15px;
+	cursor:default;
+	display:block;}	
+.STEM_INSTA div {
+	display:inline-block;}
+.STEM_INSTA img {
+	padding:0 10px 0 0;
+	width:50px;
+	display:inline-block;
+	vertical-align:top;}
+.STEM_INSTA .label {
+	color:#666;
+	text-transform:capitalize;
+	font-size:12px;
+	font-weight:bold;}
+
+
+
+
+
+	
+
+.STEM_NORMLIST,
+.STEM_BULLLIST {
+	padding:0 10px;
+	margin:0 10px;
+	width:auto;
+	display:inline-block;
+	vertical-align:top;}
+.STEM_NORMLIST li,
+.STEM_BULLLIST li {
+	padding:5px 10px 0;	
+	list-style-type:decimal;
+	display:list-item;}
+.STEM_BULLLIST li {
+	list-style-type:square;}	
+.STEM_BULLLIST#CAP li {
+	text-transform:capitalize;}
+.STEM_BULLLIST#NON li {
+	text-transform:none;}	
+	
+	
+.STEM_OVERFLOW {
+	overflow:auto;}	
+.STEM_OVERFLOW ul,
+.STEM_OVERFLOW li,
+.STEM_OVERFLOW td,
+.STEM_OVERFLOW div {
+	white-space:nowrap;}	
+.STEM_OVERFLOW td {
+	padding:5px 0;}	
+	
+	
+.STEM_PROFILE {
+	padding:10px;
+	background-color:#FFF;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:scroll;
+	background-size:contain;
+	width:250px;
+	height:250px;
+	text-align:center;
+	font-size:14px;
+	border:solid thin #DDD;
+	border-radius:60px;
+	display:block;}
+	
+	
+.STEM_NOTICE {
+	padding:20px;
+	background-color:#FFF6D7;
+/*	width:220px;*/
+	text-align:center;
+	display:inline-block;}
+.STEM_NOTICE .TITLE {
+	margin:0 0 5px 0;
+	color:#EE1111;
+	font-size:16px;	
+	font-weight:bold;}	
+.STEM_NOTICE .SUBTITLE {
+	font-size:14px;	
+	font-weight:bold;}
+.STEM_NOTICE .ARTICLE {
+	color:#0093DD;
+	font-size:14px;}
+.STEM_NOTICE a {
+	color:inherit;
+	text-decoration:underline;}	
+.STEM_NOTICE#LEFT {
+	text-align:left;}
+
+
+.STEM_PANEL li.left,
+.STEM_PANEL li.right {
+	padding:20px 10px;
+	margin:0 20px 20px 0;
+	background-color:#FFF;
+	width:48%;
+	border-radius:5px;
+	box-sizing:border-box;}
+.STEM_PANEL li.right {
+	margin-right:0;}
+
+
+.BLN_SCSS_FORM form {
+	margin:0 auto;
+	width:250px;}
+.BLN_SCSS_FORM label {
+	margin:10px 0 0;}
+.BLN_SCSS_FORM input,
+.BLN_SCSS_FORM select,
+.BLN_SCSS_FORM textarea {
+	margin:10px 0;
+	width:100%;	
+	display:block;}
+.BLN_SCSS_FORM textarea {
+	height:10em;}	
+
+
+form.STEM_FORM_SEARCH {
+	display:inline-block;}
+form.STEM_FORM_SEARCH input {
+	text-align:center;}
+form.STEM_FORM_SEARCH input[type="submit"] {
+	display:none;}
+	
+
+		
+.STEM_FORM fieldset {
+	padding:20px;
+	margin:20px 20px 20px 0;
+	width:450px;
+	box-sizing:border-box;
+	display:inline-block;
+	vertical-align:top;}
+.STEM_FORM legend {
+	padding:0 20px;
+	font-size:18px;}			
+.STEM_FORM label {
+	margin:10px 0 0;
+	text-transform:capitalize;}	
+.STEM_FORM input,
+.STEM_FORM select,
+.STEM_FORM textarea {
+	margin:10px 0;
+	width:100%;
+	display:block;}
+.STEM_FORM textarea {	
+	height:10em;}
+.STEM_FORM_NOTE {
+	color:#666;
+	text-transform:none;
+	font-size:14px;
+	display:inline-block;}	
+	
+
+.STEM_BTN_SHORT input[type="submit"],
+.STEM_BTN_SHORT input[type="reset"] {
+	padding:0 20px;
+	margin-right:10px;
+	width:auto;
+	display:inline-block;}
+
+
+table.STEM_TFORM {
+	width:auto;}
+table.STEM_TFORM tr {
+	vertical-align:middle;}
+table.STEM_TFORM tr th {
+	margin:10px 0;
+	text-align:left;
+	text-transform:capitalize;
+	font-size:24px;
+	font-weight:normal;}
+table.STEM_TFORM tr td:first-child {
+	color:#666;
+	text-transform:capitalize;}
+table.STEM_TFORM tr td:first-child::after {
+	content:" :";}
+table.STEM_TFORM td {
+	padding:5px;
+	text-align:left;
+	white-space:nowrap;}
+table.STEM_TFORM td.noafter::after {
+	color:#FFF;}
+table.STEM_TFORM td input[type="reset"],
+table.STEM_TFORM td input[type="submit"],
+table.STEM_TFORM td input[type="button"] {
+	margin:10px 10px 10px 0 ;}
+	
+	
+table.STEM_TCOMPACT {
+	width:auto;}
+table.STEM_TCOMPACT td {
+	padding:5px 10px 5px 0;}		
+	
+	
+.STEM_FOOTER,
+.STEM_FOOTER_PRO {
+	padding:20px 0;
+	margin:20px 0 0 0;
+	background-color:#373435;
+	color:#999;}
+.STEM_FOOTER_PRO {
+	background-color:#E0E0E0;
+	color:#666;}
+.STEM_FOOTER ul li,
+.STEM_FOOTER_PRO ul li {
+	padding:5px 0;
+	width:250px;}	
+.STEM_FOOTER ul li:last-child,
+.STEM_FOOTER_PRO ul li:last-child {
+	margin-right:0;}
+.STEM_FOOTER ol li,
+.STEM_FOOTER_PRO ol li {
+	margin:0;
+	width:auto;
+	display:block;}
+.STEM_FOOTER ol li a:hover {
+	color:#FFF;}
+.STEM_FOOTER_PRO ol li a:hover {
+	text-decoration:underline;}
+	
+	
+	
+

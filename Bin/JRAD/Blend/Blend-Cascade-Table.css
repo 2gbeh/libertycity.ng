@@ -1,0 +1,81 @@
+@charset "utf-8";
+table.BLN_DISPLAY_TABLE {
+	margin:20px 0;}
+table.BLN_DISPLAY_TABLE tr:hover {
+	background-color:#F7F7F7;}
+table.BLN_DISPLAY_TABLE th {
+	padding:5px 10px;
+	background-color:#fcfcfc;
+	text-align:left;
+	text-transform:capitalize;
+	font-weight:normal;
+	border:solid thin #ddd;
+	white-space:nowrap;}
+table.BLN_DISPLAY_TABLE td {
+	padding:5px 10px;
+	border-bottom:solid thin #ddd;
+	white-space:normal;
+	white-space:nowrap;}
+table.BLN_DISPLAY_TABLE input[type="checkbox"] {
+	padding:0;
+	margin:5px 0 0 0;
+	width:0;
+	height:0;}
+table.BLN_DISPLAY_TABLE td a {
+	text-decoration:underline;
+	color:#0000EE;}
+table.BLN_DISPLAY_TABLE td a:hover {
+	color:#EE0000;}	
+table.BLN_DISPLAY_TABLE td a.t_btn {
+	padding:5px 15px;
+	margin:1px;
+	background-color:#fcfcfc;
+	color:inherit;
+	text-transform:capitalize;
+	text-decoration:none;
+	font-size:12px;
+	border:solid thin #ddd;
+	border-radius:3px;
+	display:inline-block;}
+table.BLN_DISPLAY_TABLE td a.t_btn_pri {
+	background-color:#0093dd;
+	color:#fff;
+	border-color:#0093dd;}	
+table.BLN_DISPLAY_TABLE td a.t_btn:hover, 
+table.BLN_DISPLAY_TABLE td a.t_btn_pri:hover {	
+	background-color:#ddd;
+	color:inherit;
+	border-color:inherit;}	
+table.BLN_DISPLAY_TABLE td .watermark {
+	color:#ddd;}	
+table.BLN_DISPLAY_TABLE th,
+table.BLN_DISPLAY_TABLE td {
+	font-size:13px;}	
+	
+	
+table.BLN_DISPLAY_OTABLE th {
+	white-space:nowrap;
+	text-transform:none;
+	border:solid;}
+table.BLN_DISPLAY_OTABLE th:first-child {
+	border:0;}
+table.BLN_DISPLAY_OTABLE th:last-child {
+	padding:10px 20px;
+	background-color:#0093dd;
+	color:#fff;
+	border:0;
+	border-radius:10px 0 0 0;}
+table.BLN_DISPLAY_OTABLE td {
+	white-space:normal;
+	border:solid thin #ddd;}	
+table.BLN_DISPLAY_OTABLE tr.action:hover {
+	background-color:transparent;}
+table.BLN_DISPLAY_OTABLE tr.action td {
+	border:0;
+	padding:10px 0;}
+table.BLN_DISPLAY_OTABLE tr.action td a.t_btn {
+	padding:10px 20px;
+	margin:10px 5px;}	
+table.BLN_DISPLAY_OTABLE th,
+table.BLN_DISPLAY_OTABLE td {
+	font-size:13px;}	

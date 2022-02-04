@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+table.JSP_CHART_SINGLE,
+table.JSP_CHART_PAIR {
+	font-size:12px;	
+	border-collapse:collapse;}
+table.JSP_CHART_SINGLE td,
+table.JSP_CHART_PAIR td {
+	padding:5px;
+	width:100%;
+	height:20px;
+	text-align:center;
+	text-transform:capitalize;
+	border-bottom:solid thin #ddd;}	
+tbody .JSP_CHART_CUBE {
+	width:20px;
+	height:20px;
+	background-color:#0093DD;}
+tbody .JSP_CHART_DISC {		
+	width:20px;
+	height:20px;
+	background-color:#0093DD;
+	border-radius:60px;}		
+tbody .JSP_CHART_BLOT_1 {
+	background-color:#00A300;
+	background-color:#007BB8;}
+tbody .JSP_CHART_BLOT_2 {
+	background-color:#EE1111;
+	background-color:#75C5F0;}
+tbody .JSP_CHART_BLOT_3 {
+	background-color:#2D89EF;
+	background-color:#0093DD;}
+td.JSP_CHART_ACTIVE:hover {
+	cursor:pointer;}
+td.JSP_CHART_ACTIVE:hover:after {
+	content:attr(tooltip);
+	padding:5px 10px;
+	background-color:#ddd;	
+	position:absolute;
+	white-space:nowrap;
+	border-radius:2px;
+	box-shadow:0px 0px 2px #222;}
+tfoot td {	
+	border:solid thin #ddd;}
+tr.label td {
+	font-weight:bold;}
+tr.JSP_CHART_KEY td {
+	border-bottom:solid thin #0093DD;}	
+tr.JSP_CHART_KEY_1 td {
+	border-bottom:solid thin #00A300;
+	border-bottom:solid thin #007BB8;}
+tr.JSP_CHART_KEY_2 td {
+	border-bottom:solid thin #EE1111;	
+	border-bottom:solid thin #75C5F0;}
+tr.JSP_CHART_KEY_3 td {
+	border-bottom:solid thin #2D89EF;	
+	border-bottom:solid thin #0093DD;}
+tfoot tr:first-child td {
+	font-weight:bold;}
+tfoot td:first-child {
+	padding:0 10px;
+	text-align:right;
+	font-weight:bold;
+	border:0;}	
+
+
+table.JSP_CHART_MACRO {
+	border-collapse:collapse;}
+table.JSP_CHART_MACRO td {
+	font-size:12px;	}
+table.JSP_CHART_MACRO td.JSP_CHART_LABEL {
+	padding:5px 10px 5px 0;
+	text-align:right;
+	text-transform:capitalize;}
+table.JSP_CHART_MACRO td.JSP_CHART_VALUE {
+	padding:0 10px;
+	border-bottom:solid thin white;}
+table.JSP_CHART_MACRO td.JSP_CHART_ACTIVE {
+	background-color:#0093DD;}	
+
+
+.JSP_CHART_STATUS {
+	background-color:#ddd;
+	border-radius:50px;}
+.JSP_CHART_STATUS .JSP_CHART_ACTIVE {
+	margin:10px 0;
+	background-color:#0093DD;		
+	height:8px;
+	border-radius:50px;
+	list-style-type:none;}	
+.JSP_CHART_STATUS .JSP_CHART_ACTIVE:hover {	
+	background-color:#007BB8;
+	cursor:pointer;}
+	
+
+.JSP_CHART_PACKAGE {
+	text-transform:capitalize;}
+.JSP_CHART_PACKAGE .title {
+	font-weight:bold;}
+.JSP_CHART_PACKAGE .tube {
+	background-color:#ddd;
+	border-radius:50px;}
+.JSP_CHART_PACKAGE .ink {
+	margin:5px 0;
+	background-color:#999;	
+	height:8px;
+	border-radius:50px;
+	list-style-type:none;}	
+.JSP_CHART_PACKAGE .ink:hover {	
+	background-color:#007BB8;
+	cursor:pointer;}
+.JSP_CHART_PACKAGE .footer {
+	text-align:right;}	
+
+	
+table.JSP_CHART_PARALAX {
+	font-size:12px;	
+	border-collapse:collapse;}
+table.JSP_CHART_PARALAX td {
+	padding:5px;
+	width:100%;
+	height:20px;
+	text-align:center;
+	text-transform:capitalize;}
+table.JSP_CHART_PARALAX tr.JSP_CHART_LABEL td {
+	padding:5px 20px;
+	border-left:solid thin #ddd;}	
+table.JSP_CHART_PARALAX tr.JSP_CHART_LABEL td:first-child {
+	text-align:right;	
+	padding-right:20px;
+	border:0;}
+table.JSP_CHART_PARALAX tr.JSP_CHART_LABEL td.JSP_CHART_ACTIVE {
+	background-color:#0093DD;}	
+table.JSP_CHART_PARALAX tr.JSP_CHART_SCALE td {
+	border:solid thin #ddd;
+	font-weight:normal;}
+table.JSP_CHART_PARALAX tr.JSP_CHART_SCALE td:first-child {
+	border:0;}	
+table.JSP_CHART_PARALAX ol {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	display:inline-block;}	
+table.JSP_CHART_PARALAX ol li {
+	margin:0 2px;
+	display:inline-block;
+	vertical-align:top;}	
+table.JSP_CHART_PARALAX tr.JSP_CHART_KEY td {
+	padding:10px 0;
+	border:0;
+	text-align:left;}
+table.JSP_CHART_PARALAX .JSP_CHART_RIBBON {
+	width:15px;
+	height:15px;
+	background-color:#0093DD;
+	display:inline-block;}
+table.JSP_CHART_PARALAX .JSP_CHART_RIBBON_1 {
+	background-color:#007BB8;}
+table.JSP_CHART_PARALAX .JSP_CHART_RIBBON_2 {
+	margin:0 0 0 10px;
+	background-color:#75C5F0;}
+table.JSP_CHART_PARALAX .JSP_CHART_RIBBON_3 {
+	margin:0 0 0 10px;		
+	background-color:#0093DD;}		
+
+
+.JSP_CHART_BAR_WRAP {
+/*	background-color:red;*/}
+table.JSP_CHART_BAR {
+	border-collapse:collapse;
+	transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);}
+table.JSP_CHART_BAR td {
+	text-transform:capitalize;
+	white-space:nowrap;
+	vertical-align:middle;}
+table.JSP_CHART_BAR td.JSP_CHART_LABEL {
+	padding:0 10px 0 0;
+	text-align:right;
+	font-size:8px;
+	width:10px;
+	transform:rotate(45deg);
+	-moz-transform:rotate(45deg);}
+table.JSP_CHART_BAR td.JSP_CHART_VALUE {
+	padding:1px;		
+	border-left:solid thin #ddd;}
+table.JSP_CHART_BAR td.JSP_CHART_VALUE .actual {
+	transform:rotate(90deg);
+	-moz-transform:rotate(90deg);}
+table.JSP_CHART_BAR td.JSP_CHART_NACTIVE {
+	padding:0;
+	vertical-align:middle;}
+table.JSP_CHART_BAR td.JSP_CHART_NACTIVE .JSP_CHART_INSIDE {
+	background-color:#0093DD;}
+table.JSP_CHART_BAR td.JSP_CHART_VALUE .actual {
+	font-size:10px;}	
+table.JSP_CHART_BAR td.JSP_CHART_SCALE {
+	font-size:8px;
+	transform:rotate(90deg);
+	-moz-transform:rotate(90deg);}
+	
+	
+	
+	
+	
+table.JSP_CHART_TABLE {
+/*	border:solid thin #DDD;*/}
+table.JSP_CHART_TABLE caption {
+/*	text-align:left;*/
+	font-size:10px;}
+table.JSP_CHART_TABLE th {
+	text-transform:capitalize;	
+	font-weight:normal;
+	border-bottom:solid thin #DDD;}
+table.JSP_CHART_TABLE tr td {
+	text-transform:capitalize;
+	font-size:10px;
+	border-bottom:solid thin #DDD;	}
+table.JSP_CHART_TABLE tr td.LABEL {}
+table.JSP_CHART_TABLE tr td.VALUE {
+	text-align:right;}

@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+table.JSP_SPANNER_DATE td.time {
+	padding:0 5px 0 0;
+	width:10%;
+	font-size:50px;
+	line-height:1;} 
+table.JSP_SPANNER_DATE td.day {
+	font-size:18px;
+	vertical-align:bottom;}
+table.JSP_SPANNER_DATE td.date {}
+
+
+ul.JSP_SPANNER_MENU li a {
+	text-transform:capitalize;
+	display:block;}
+
+
+.JSP_SPANNER_LEGEND {
+	margin:20px 0;
+	text-align:center;}
+.JSP_SPANNER_LEGEND a {
+	text-decoration:none;} 	

@@ -1,0 +1,575 @@
+@charset "utf-8";
+/* CSS Document */
+.JSP_SPRY_PIN {
+	margin:3px;
+	background-color:red;
+	color:#FFF;
+	width:15px;
+	height:15px;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	border-radius:60px;
+	vertical-align:top;
+	display:inline-block;}
+	
+	
+.JSP_SPRY_LOAD {
+	display:inline;}
+	
+.JSP_SPRY_KNOB {
+	margin:0 5px;
+	display:inline-block;}	
+.JSP_SPRY_KNOB img {	
+	width:45px;
+	cursor:pointer;
+	display:inline-block;
+	vertical-align:text-bottom;}
+.JSP_SPRY_KNOB img:last-child {
+	display:none;}
+
+
+
+.JSP_SPRY_CANCEL {
+	margin:0 5px;
+	font-size:22px;
+	line-height:0.5;
+	float:right;}	
+.JSP_SPRY_CANCEL:hover {
+	color:#CCC;
+	cursor:pointer;}
+	
+	
+.JSP_SPRY_RIBBON {
+	padding:10px;
+	color:#666;
+	text-align:center;
+	font-size:12px;
+	box-shadow:0 1px 2px 0 #ddd;}
+.JSP_SPRY_RIBBON a {
+	text-decoration:underline;}
+.JSP_SPRY_RIBBON .cancel {
+	margin:0 5px;
+	font-size:22px;
+	line-height:0.5;
+	float:right;}	
+.JSP_SPRY_RIBBON .cancel:hover {
+	color:#000;
+	cursor:pointer;}
+
+
+	
+.JSP_SPRY_IRIBBON {
+	padding:10px;
+	background-color:#373435;
+	color:#FFF;
+	text-align:center;
+	font-size:12px;}
+.JSP_SPRY_IRIBBON a {
+	text-decoration:underline;}	
+.JSP_SPRY_IRIBBON a.pri-btn {
+	background-color:#0093DD;
+	text-decoration:none;}	
+.JSP_SPRY_IRIBBON a.pri-btn:hover {
+	background-color:#007BB8;}		
+
+
+
+.JSP_SPRY_DRAWER {
+	padding:10px 10px 0;}
+#JSP_SPRY_DRAWER_CHECKBOX {
+	display:none;}	
+#JSP_SPRY_DRAWER_ICON {
+	padding:0 10px;
+	font-size:40px;
+	line-height:0.5;	
+	cursor:pointer;
+	transition:0.5s;}
+ul#JSP_SPRY_DRAWER_MENU {
+	margin:10px 0;
+	width:100%;
+	box-shadow:0 2px 2px 0 #ddd;	
+	display:none;}
+ul#JSP_SPRY_DRAWER_MENU li {
+	padding:0;
+	margin:0;	
+	display:block;}
+ul#JSP_SPRY_DRAWER_MENU li:hover {
+	border-color:transparent;}
+ul#JSP_SPRY_DRAWER_MENU li a {
+	padding:10px 15px;
+	background-color:#FFF;
+	color:#333;
+	text-transform:capitalize;
+	display:block;}	
+ul#JSP_SPRY_DRAWER_MENU li a:hover {
+	background-color:#DDD;}
+
+
+
+
+.JSP_SPRY_DOCKET {
+	padding:0;
+	text-align:right;}
+#JSP_SPRY_DOCKET {	
+	font-size:20px;
+	line-height:0.5;
+	cursor:pointer;}
+#JSP_SPRY_DOCKET .rotate-right {
+	font-size:35px;}	
+#JSP_SPRY_DOCKET:hover {
+	color:#0093dd;}
+#JSP_SPRY_DOCKET_MENU {
+	display:none;}
+.JSP_SPRY_DOCKET_MENU li {
+	padding:10px;
+	color:#333;
+	text-transform:capitalize;
+	border-bottom:solid thin #DDD;
+	display:block;}
+.JSP_SPRY_DOCKET_MENU li:last-child {
+	padding:0;
+	border:0;}	
+.JSP_SPRY_DOCKET_MENU li .JSP_SPRY_CALLCARD {
+	margin-right:10px;
+	width:25px;
+	height:25px;
+	float:left;}
+.JSP_SPRY_DOCKET_MENU li .JSP_SPRY_CALLCARD .print {
+	margin:0 0 10px 0;
+	font-size:10px;}	
+.JSP_SPRY_DOCKET_MENU li .JSP_SPRY_PROFILE {
+	margin-right:10px;
+	display:inline-block;}
+.JSP_SPRY_DOCKET_MENU li a {
+	padding:10px;
+	color:inherit;
+	text-decoration:none;
+	display:block;}
+.JSP_SPRY_DOCKET_MENU li a:hover {
+	color:#333;}	
+.JSP_SPRY_DOCKET_MENU li span {
+	margin:3px 15px 0 0;
+	font-size:25px;
+	line-height:0.5;
+	float:left;}	
+.JSP_SPRY_DOCKET_MENU li:hover {
+	background-color:#F7F7F7;
+	color:#0093dd;
+	cursor:pointer;}	
+.JSP_SPRY_DOCKET_MENU li.selected {	
+	border-left:solid #16BC00;}
+	
+	
+	
+	
+
+
+
+.JSP_SPRY_SHOWING {
+	margin:10px;
+	padding:10px 20px;
+	background-color:#EBF8A4;
+	border:solid thin #8BCF7F;
+	border-radius:5px;}
+.JSP_SPRY_SHOWING .info {
+	padding:0 5px 0 0;
+	color:#8BCF7F;
+	font-weight:bold;
+	vertical-align:top;}
+	
+
+ol.JSP_SPRY_PAGI {
+	display:block;}	
+ol.JSP_SPRY_PAGI li {
+	padding:5px 10px;
+	text-align:center;
+	text-transform:capitalize;
+	border:solid thin #ddd;}
+ol.JSP_SPRY_PAGI li.JSP_SPRY_PAGI_HIDDEN {
+	background-color:#ddd;
+	color:red;
+	font-weight:bold;
+	display:none;}
+ol.JSP_SPRY_PAGI li:hover {
+	background-color:#CCC;
+	cursor:pointer;}
+ol.JSP_SPRY_PAGI li#selected {
+	background-color:#0093DD;
+	color:white;}	
+.JSP_SPRY_PAGI_LABEL {
+	background-color:red;}		
+.JSP_SPRY_PAGI_SHOWING {
+	padding:5px;
+	color:#666;}
+	
+	
+
+ul.JSP_SPRY_MENU {
+	margin:5px 0;
+	background-color:#FFF;
+	width:130px;
+	box-shadow:0 1px 2px 0 #DDD;		
+	position:absolute;
+	z-index:99;
+	display:none;}
+ul.JSP_SPRY_MENU  li {
+	display:block;}
+ul.JSP_SPRY_MENU  li a {
+	padding:5px 10px;
+	text-transform:capitalize;
+	display:block;}
+ul.JSP_SPRY_MENU  li a:hover {
+	background-color:#DDD;}	
+	
+
+
+dl.JSP_SPRY_IMENU {}
+dl.JSP_SPRY_IMENU dt,
+dl.JSP_SPRY_IMENU  dd {
+	text-transform:capitalize;
+	display:inline-block;}
+dl.JSP_SPRY_IMENU  dd {
+	display:none;}
+dl.JSP_SPRY_IMENU  dt a,
+dl.JSP_SPRY_IMENU  dd a {
+	padding:5px 10px;
+	display:block;}
+dl.JSP_SPRY_IMENU  dt a:hover,
+dl.JSP_SPRY_IMENU  dd a:hover {
+	background-color:#DDD;}		
+
+
+ul.JSP_SPRY_SUBMENU,
+ul.JSP_SPRY_SUBLINK {
+	display:block;}
+ul.JSP_SPRY_SUBMENU li,
+ul.JSP_SPRY_SUBLINK li {
+	padding:10px;
+	margin:5px 5px 10px 0;
+	text-transform:capitalize;
+	border:solid thin #DDD;
+	border-radius:5px;}
+ul.JSP_SPRY_SUBMENU li a,
+ul.JSP_SPRY_SUBLINK li a {
+	background-color:inherit;
+	color:inherit;}
+ul.JSP_SPRY_SUBMENU li:hover,
+ul.JSP_SPRY_SUBMENU li a:hover,
+ul.JSP_SPRY_SUBLINK li:hover,
+ul.JSP_SPRY_SUBLINK li a:hover{
+	background-color:#0093DD;
+	color:#FFF;
+	cursor:default;}	
+
+
+
+
+
+.JSP_SPRY_PASSWORD:hover {
+	color:#0093DD;
+	cursor:pointer;}	
+	
+.JSP_SPRY_CAROUSEL_TARGET {
+	background-color:#FFF;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:scroll;
+	background-size:cover;
+/*	transition:0.4s;*/}
+
+
+
+.JSP_SPRY_FLASHCARD_TARGET {
+	background-color:#FFF;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:scroll;
+	background-size:cover;}
+.JSP_SPRY_CAROUSEL_TEXT	{
+	text-shadow:1px 1px #666;}
+
+
+
+.JSP_SPRY_PROFILE {
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:scroll;
+	background-size:contain;}
+
+.JSP_SPRY_POSTCARD {
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:scroll;
+	background-size:cover;}
+
+	
+	
+.JSP_SPRY_CALLCARD {
+	background-color:#0093DD;
+	width:60px;
+	height:60px;
+	text-align:center;
+	border-radius:60px;
+	display:inline-block;}
+.JSP_SPRY_CALLCARD:hover {
+	background-color:#007BB8;}
+.JSP_SPRY_CALLCARD .print {
+	margin-top:15px;
+	color:#FFF;	
+	text-transform:uppercase;
+	font-size:20px;
+	display:inline-block;}	
+	
+
+.JSP_SPRY_CALLOUT {
+	display:none;}
+.JSP_SPRY_CALLOUT .header {
+	padding:0 10px;	
+	text-align:right;}
+.JSP_SPRY_CALLOUT .header #cancel {
+	padding:0 2px;
+	font-size:14px;		
+	display:inline;}
+.JSP_SPRY_CALLOUT .header #cancel:hover {
+	color:#666;
+	cursor:pointer;}	
+.JSP_SPRY_CALLOUT .body {
+	padding:0 10px 10px;
+	text-align:left;}
+	
+	
+ol.JSP_SPRY_AFFILIX {
+	margin:20px;
+	display:block;
+	text-align:center;}	
+ol.JSP_SPRY_AFFILIX li img {
+	width:100%;}
+
+
+a.JSP_SPRY_TOP {
+	padding:10px 10px 0 0;
+	background-color:#0093DD;
+	color:#FFF;
+	height:35px;
+	width:35px;
+	text-align:center;
+	font-size:40px;
+	line-height:0.5;
+	box-shadow:0 1px 2px 0 #DDD;
+	border-radius:60px;
+	right:10px;
+	bottom:10px;
+	position:fixed;}
+a.JSP_SPRY_TOP:hover {
+	background-color:#007BB8;}
+	
+	
+	
+	
+	
+ul.JSP_SPRY_SOCIAL {
+	float:right;}	
+ul.JSP_SPRY_SOCIAL li {
+	margin:0 5px;}
+ul.JSP_SPRY_SOCIAL li img {
+	width:25px;}
+
+
+
+ul.JSP_SPRY_APPS {
+	margin:20px 0;
+	text-align:center;}	
+ul.JSP_SPRY_APPS li {
+	margin:0 5px;}
+ul.JSP_SPRY_APPS li:first-child img {
+	width:120px;}
+ul.JSP_SPRY_APPS li:last-child img {
+	width:100px;}
+
+
+ol.JSP_SPRY_IAPPS li a {
+	padding:10px 20px;
+	margin:5px 0;
+	background-color:#4F4F4F;
+	width:200px;
+	text-transform:none;
+	border-radius:2px;
+	display:inline-block;}		
+ol.JSP_SPRY_IAPPS li a:hover {
+	background-color:#474747;
+	cursor:default;}
+ol.JSP_SPRY_IAPPS li .title {
+	color:#FFF;
+	font-weight:normal;}
+ol.JSP_SPRY_IAPPS li .subtitle {
+	margin:0;
+	color:#999;
+	font-size:14px;}	
+	
+		
+.JSP_SPRY_TRADE {
+	font-size:14px;}
+.JSP_SPRY_COPY {
+	font-size:14px;
+	display:inline-block;}
+.JSP_SPRY_COPY a {
+	text-decoration:none;}
+.JSP_SPRY_POBOX {
+	font-size:14px;
+	float:right;
+	display:inline-block;}	
+
+
+	
+.JSP_SPRY_SEAL {
+	padding:0;	
+	margin:0;
+	text-align:right;}
+.JSP_SPRY_SEAL img {
+	margin:5px 0;
+	width:200px;}
+
+
+
+	
+.JSP_SPRY_LIVECHAT_BADGE {
+	cursor:pointer;}
+.JSP_SPRY_LIVECHAT {
+	background-color:#FFF;
+	position:fixed;
+	bottom:0;
+	right:0;
+	width:280px;
+	box-shadow:0 1px 2px 0 #DDD;
+	display:none;}
+.JSP_SPRY_LIVECHAT .header {
+	padding:10px 0;
+	background-color:#0093DD;
+	color:#FFF;}
+.JSP_SPRY_LIVECHAT .body {
+	padding:10px;
+	color:#333;
+	font-size:12px;
+	height:250px;
+	overflow:auto;}
+.JSP_SPRY_LIVECHAT .body .time {
+	color:#666;
+	text-align:right;
+	font-size:10px;
+	vertical-align:top;}	
+.JSP_SPRY_LIVECHAT .body .admin {
+	padding:10px;
+	border-bottom:solid thin #DDD;}	
+.JSP_SPRY_LIVECHAT .body .user {
+	padding:10px;
+	border-bottom:solid thin #0093DD;}		
+.JSP_SPRY_LIVECHAT .form input {
+	padding:10px;
+	width:100%;}
+.JSP_SPRY_LIVECHAT .form input[type='submit'] {
+	display:none;}		
+.JSP_SPRY_LIVECHAT .footer	{
+	padding:10px;
+	margin:0;
+	background-color:transparent;
+	color:#333;
+	text-align:center;
+	font-size:10px;	}	
+		
+		
+		
+.JSP_SPRY_BADGE {
+	padding:0 0 10px 0;
+	border-bottom:solid thin #ddd;}
+.JSP_SPRY_BADGE .image {
+	width:60px;
+	height:60px;
+	border:solid thin #ddd;	
+	border-radius:60px;
+	display:inline-block;}
+.JSP_SPRY_BADGE .image {
+/*	background-image:url(../../Media/Icon/logo.png);*/
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:scroll;
+	background-size:contain;}
+.JSP_SPRY_BADGE .anchor {
+	text-align:right;}
+.JSP_SPRY_BADGE a {
+	color:#0093DD;
+	text-decoration:underline;}
+.JSP_SPRY_BADGE a:hover {
+	color:#999;}	
+.JSP_SPRY_BADGE .icon {
+	padding:5px 0;}
+.JSP_SPRY_BADGE .name {
+	padding:2px 0;	
+	text-transform:capitalize;
+	font-weight:bold;}
+.JSP_SPRY_BADGE .name a {
+	text-decoration:underline;
+	font-weight:normal;}	
+.JSP_SPRY_BADGE .email {
+	padding:2px 0;
+/*	text-transform:lowercase;*/
+	color:#666;}
+
+
+
+ul.JSP_SPRY_WIDGETS li {
+	padding:20px;
+	text-align:center;
+	text-transform:capitalize;}
+ul.JSP_SPRY_WIDGETS li div {
+	padding:2px 0;}	
+ul.JSP_SPRY_WIDGETS .title {
+	color:#666;}
+ul.JSP_SPRY_WIDGETS .title-key {
+	font-size:25px;}
+ul.JSP_SPRY_WIDGETS .footer {
+	font-size:12px;}	
+ul.JSP_SPRY_WIDGETS .footer #footer-note {
+	color:#16bc00;
+	color:#0093dd;}
+ul.JSP_SPRY_WIDGETS .footer #footer-key {
+	color:#999;
+	text-transform:none;
+	font-weight:lighter;}	
+	
+	
+	
+
+.JSP_SPRY_FIREFLY_POPUP {
+	background:rgba(0,0,0,0.5);
+	color:#FFF;
+	width:250px;
+	height:250px;
+	display:none;}
+.JSP_SPRY_FIREFLY_POPUP #cancel {
+	padding:0 10px;
+	font-size:20px;
+	float:right;
+	cursor:pointer;}
+.JSP_SPRY_FIREFLY_POPUP #cancel:hover {
+	color:#ccc;}
+.JSP_SPRY_FIREFLY_POPUP .wrap {
+	padding:60px 5px 0 5px;
+	text-align:center;	
+	font-size:11px;}
+.JSP_SPRY_FIREFLY_POPUP h1 {
+	text-transform:capitalize;
+	line-height:0.5;}
+.JSP_SPRY_FIREFLY_POPUP .footer {
+	padding:25px 0;
+	border:0;}	
+.JSP_SPRY_FIREFLY_TARGET {
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:scroll;
+	background-size:cover;
+	width:250px;
+	height:250px;
+	cursor:pointer;}
+	
+	

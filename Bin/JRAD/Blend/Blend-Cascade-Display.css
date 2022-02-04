@@ -1,0 +1,408 @@
+@charset "utf-8";
+/* CSS Document */
+table .BLN_DISPLAY_MACRO td:first-child {
+	text-transform:capitalize;}
+table .BLN_DISPLAY_MACRO td:first-child::after {
+	content:" :";}
+table .BLN_DISPLAY_MACRO td {
+	padding:5px;
+	font-size:12px;
+	border:0;}
+
+
+dl.JSP_DISPLAY_ILIST {
+	margin:0;
+	text-align:left;}
+dl.JSP_DISPLAY_ILIST dt {
+	padding:5px 10px;	
+	margin:10px 0;
+	font-size:18px;
+	border-bottom:solid thin #DDD;
+	cursor:pointer;}
+dl.JSP_DISPLAY_ILIST dt .sign {
+	float:right;}	
+dl.JSP_DISPLAY_ILIST dt:hover {	
+	background-color:#F5F5F5;}	
+dl.JSP_DISPLAY_ILIST dd {
+	padding:10px;
+	margin:0;
+	box-shadow:0 1px 2px 0 #DDD;
+	display:none;}
+
+
+.JSP_DISPLAY_TAROT {
+	margin:20px 0;}
+.JSP_DISPLAY_TAROT .th {
+	padding:5px 10px;
+	font-weight:bold;
+	border:0;
+	border-left:solid #0093dd;
+	border-radius:5px 5px 0 0;
+	display:inline-block;}
+.JSP_DISPLAY_TAROT .td {
+	padding:10px;
+	margin-bottom:20px;
+	border:solid thin #ddd;
+	border-top:0;
+	border-left:solid #0093dd;	
+	white-space:normal;}
+
+
+	
+ul.JSP_DISPLAY_CARDS {
+	float:left;}
+ul.JSP_DISPLAY_CARDS li {
+	padding:10px;
+	margin:10px;
+	width:250px;
+	background-color:white;
+	box-shadow:0 2px 2px 0 #ddd;
+	transition:0.3s;}
+ul.JSP_DISPLAY_CARDS table {
+	width:100%;}
+ul.JSP_DISPLAY_CARDS th {
+	text-align:left;
+	text-transform:capitalize;
+	font-weight:normal;
+	font-size:18px;}	
+ul.JSP_DISPLAY_CARDS td {
+	padding:5px 0;
+	color:#666;}
+ul.JSP_DISPLAY_CARDS .subtitle, 
+ul.JSP_DISPLAY_CARDS .article {
+	padding:0;
+	text-align:left;	
+	font-size:14px;}	
+ul.JSP_DISPLAY_CARDS .article {
+	padding:10px 0;
+	color:inherit;}	
+ul.JSP_DISPLAY_CARDS .footnote {	
+	text-align:left;
+	font-size:12px;
+	vertical-align:middle;}	
+ul.JSP_DISPLAY_CARDS a {
+	padding:7px 14px;
+	background-color:#2D89EF;
+	color:white;	
+	text-transform:capitalize;
+	text-decoration:none;
+	font-size:10px;
+	border-radius:2px;
+	float:right;}
+ul.JSP_DISPLAY_CARDS a:hover {
+	background-color:#666;}	
+	
+		
+	
+
+ul.JSP_DISPLAY_POSTCARD table.mainTable {
+	margin:10px;
+	width:550px;}
+ul.JSP_DISPLAY_POSTCARD table.mainTable tr {
+	box-shadow:0 4px 4px 0 #ddd;
+	transition:0.3s;
+	vertical-align:middle;}
+ul.JSP_DISPLAY_POSTCARD table.mainTable tr:hover {
+	box-shadow:0 2px 2px 0 #ddd;}	
+ul.JSP_DISPLAY_POSTCARD table.mainTable td {
+	text-align:left;}	
+ul.JSP_DISPLAY_POSTCARD table.mainTable td.thumb {
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:scroll;
+	background-size:contain;		
+	width:250px;}
+ul.JSP_DISPLAY_POSTCARD table.mainTable td.narration {
+	padding:20px;}
+ul.JSP_DISPLAY_POSTCARD table.mainTable td.narration .title {
+	color:#0093DD;	
+	font-size:18px;}	
+ul.JSP_DISPLAY_POSTCARD table.mainTable td.narration .subtitle {
+	padding:5px 0 0 0;	
+	color:#666;
+	font-size:12px;}
+ul.JSP_DISPLAY_POSTCARD table.mainTable td.narration .article {
+	padding:5px 0 10px;
+	border-bottom:solid thin #ddd;
+	font-size:14px;}
+ul.JSP_DISPLAY_POSTCARD table.mainTable td.narration .footnote {
+	padding:10px 0 0 0;
+	font-size:12px;	}
+		
+		
+		
+	
+ul.JSP_DISPLAY_TILES {
+	float:left;}
+ul.JSP_DISPLAY_TILES li {
+	padding:10px;
+	margin:20px 10px;
+	width:250px;
+	background-color:white;}
+ul.JSP_DISPLAY_TILES table {
+	width:100%;}
+ul.JSP_DISPLAY_TILES td {
+	padding:5px 0;
+	color:#333;}
+ul.JSP_DISPLAY_TILES img {
+	width:100%;}	
+ul.JSP_DISPLAY_TILES .title {
+	padding-bottom:0;
+	font-size:25px;}
+ul.JSP_DISPLAY_TILES .subtitle {
+	padding-top:0;
+	color:#999;
+	font-size:12px;}			
+ul.JSP_DISPLAY_TILES .article {
+	padding-top:0;}	
+ul.JSP_DISPLAY_TILES a {
+	color:#2D89EF;
+	font-size:11px;}
+ul.JSP_DISPLAY_TILES a:hover {
+	color:inherit;}	
+ul.JSP_DISPLAY_TILES .posted, 
+ul.JSP_DISPLAY_TILES .impression {
+	color:#666;}
+ul.JSP_DISPLAY_TILES .footnote {
+	padding:10px 0;}
+
+
+
+ul.JSP_DISPLAY_THUMBS {
+	margin:20px;}
+ul.JSP_DISPLAY_THUMBS li {
+	margin:5px;
+	width:100px;
+	transition:0.3s;}
+ul.JSP_DISPLAY_THUMBS li:hover {	
+	box-shadow:0 4px 8px 0 #ddd;
+	cursor:pointer;}	
+ul.JSP_DISPLAY_THUMBS li .thumb {
+	margin-bottom:10px;
+	background-color:#ddd;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:scroll;
+	background-size:cover;		
+	width:100%;
+	height:100px;}
+ul.JSP_DISPLAY_THUMBS li .title {
+	font-size:12px;}
+ul.JSP_DISPLAY_THUMBS li .subtitle {
+	color:#999;
+	font-size:11px;}	
+
+
+
+
+ul.JSP_DISPLAY_ALBUM li {
+	margin:20px 10px;
+	text-align:left;
+	box-shadow:0 4px 4px 0 #ddd;
+	transition:0.4s;}	
+ul.JSP_DISPLAY_ALBUM li:hover {
+	box-shadow:0 2px 2px 0 #ddd;	
+	cursor:pointer;}
+ul.JSP_DISPLAY_ALBUM li .thumbnail {
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-attachment:scroll;
+	background-size:cover;
+	width:250px;
+	height:250px;}
+ul.JSP_DISPLAY_ALBUM li .thumbnail:hover {	
+	opacity:0.5;}
+ul.JSP_DISPLAY_ALBUM li .folder {
+	padding:5px 10px;
+	display:inline-block;}
+ul.JSP_DISPLAY_ALBUM li .stat {
+	margin:10px;
+	color:#999;
+	float:right;
+	font-size:12px;
+	display:inline-block;}		
+	
+	
+	
+
+ul.JSP_DISPLAY_GALLERY li {
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-attachment:scroll;
+	background-size:cover;
+/*	margin:10px;*/		
+/*	width:250px;
+	height:250px;*/
+	box-shadow:0 4px 4px 0 #ddd;
+	transition:0.3s;}
+ul.JSP_DISPLAY_GALLERY li:hover {
+	opacity:0.5;
+	box-shadow:0 2px 2px 0 #ddd;	
+	cursor:pointer;}
+	
+
+
+
+
+ul.JSP_DISPLAY_VIDEO {}
+ul.JSP_DISPLAY_VIDEO li {}
+ul.JSP_DISPLAY_VIDEO li:hover {
+	background-color:#DDD;}
+	
+	
+
+
+ul.JSP_DISPLAY_DOWPDF {}
+ul.JSP_DISPLAY_DOWPDF li {
+	margin:10px 5px;	
+	width:150px;}
+ul.JSP_DISPLAY_DOWPDF li img {
+	width:100%;
+	display:block;}	
+ul.JSP_DISPLAY_DOWPDF li .filename {
+	padding:5px 0;
+	font-size:12px;
+	display:block;}		
+ul.JSP_DISPLAY_DOWPDF li a {
+	padding:5px 10px;
+	text-align:right;
+	font-size:12px;
+	border:solid thin #CCC;}
+ul.JSP_DISPLAY_DOWPDF li a:hover {
+	background-color:#DDD;}		
+ul.JSP_DISPLAY_DOWPDF li:hover {}
+
+
+
+
+ul.JSP_DISPLAY_DOWVID {}
+ul.JSP_DISPLAY_DOWVID li {
+	margin:10px 5px;	
+	width:250px;}
+ul.JSP_DISPLAY_DOWVID li video {
+	margin:0 0 10px 0;
+	width:100%;
+	display:block;}	
+ul.JSP_DISPLAY_DOWVID li .filename {
+	margin:5px 0;
+	text-align:left;
+	font-size:12px;}	
+ul.JSP_DISPLAY_DOWVID li a {
+	padding:5px 10px;
+	font-size:12px;
+	border:solid thin #CCC;}
+ul.JSP_DISPLAY_DOWVID li a:hover {
+	background-color:#DDD;}		
+ul.JSP_DISPLAY_DOWVID li:hover {}
+
+
+
+
+.JSP_DISPLAY_PREVIEW .dim {
+	background-color:#000;
+	opacity:0.5;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+	position:fixed;
+	z-index:97;
+    overflow:auto;}
+.JSP_DISPLAY_PREVIEW .dim,
+.JSP_DISPLAY_PREVIEW .wrap {
+	display:none;}
+.JSP_DISPLAY_PREVIEW .exit {
+	color:white;
+	width:40px;
+	height:40px;
+    top:10px;
+	right:35px;
+	text-shadow:1px 1px 2px #bbb;
+    font-size:40px;
+	position:fixed;
+	z-index:99;}
+.JSP_DISPLAY_PREVIEW .exit:hover {
+	color:#ddd;
+    cursor:pointer;}
+.JSP_DISPLAY_PREVIEW img {
+    margin:0 auto;
+	width:100%;
+    max-width:600px;
+    top:70px;
+	left:0;
+	right:0;
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);	
+	position:absolute;
+	z-index:98;	
+    display:block;}
+.JSP_DISPLAY_PREVIEW img { 
+    -webkit-animation-name:zoom;
+    -webkit-animation-duration:0.3s;
+    animation-name:zoom;
+    animation-duration:0.3s;}
+@-webkit-keyframes zoom 
+{
+    from {
+		-webkit-transform:scale(0);} 
+    to {
+		-webkit-transform:scale(1);}
+}
+@keyframes zoom 
+{
+    from {
+		transform:scale(0);} 
+    to {
+		transform:scale(1);}
+}
+@media only screen and (max-width:600px)
+{
+   .JSP_DISPLAY_PREVIEW img {
+        width:100%;}
+}
+
+
+
+.JSP_DISPLAY_MODAL {
+	background-color:#000;
+	opacity:0.5;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+	position:fixed;
+	z-index:97;
+    overflow:auto;}
+.JSP_DISPLAY_MODAL_TARGET {
+    margin:0 auto;
+    top:70px;
+	left:0;
+	right:0;
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);	
+	position:fixed;
+	z-index:98;}	
+.JSP_DISPLAY_MODAL_TARGET {	
+    -webkit-animation-name:zoom;
+    -webkit-animation-duration:0.3s;
+    animation-name:zoom;
+    animation-duration:0.3s;}
+@-webkit-keyframes zoom 
+{
+    from {
+		-webkit-transform:scale(0);} 
+    to {
+		-webkit-transform:scale(1);}
+}
+@keyframes zoom 
+{
+    from {
+		transform:scale(0);} 
+    to {
+		transform:scale(1);}
+}
+@media only screen and (max-width:600px)
+{
+   .JSP_DISPLAY_MODAL_TARGET {
+        width:100%;}
+}	
+
+	
