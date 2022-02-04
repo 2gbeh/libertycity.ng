@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+.landing {
+	margin:80px auto 50px;
+	width:320px;}
+.landing form {
+	padding:20px;
+	box-shadow:0 2px 2px 0 #ddd;}	
+.landing form label {
+	margin:10px 0;}
+.landing form input {
+	width:100%;
+	display:block;}
+.landing form a {
+	padding:5px 0;
+	text-decoration:underline;
+	display:inline-block;}	
+.landing form input.button {
+	margin:10px 0 0 0;
+	width:100%;
+	display:block;}
+

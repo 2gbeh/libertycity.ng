@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+.JSP_DISPLAY_DRAWER {
+	padding:10px 10px 0 10px;
+	z-index:98;}
+#DRAWER_WRAP {
+	text-align:left;}
+.JSP_SPRY_DOCKET_MENU li .JSP_SPRY_CALLCARD,	
+.JSP_SPRY_DOCKET_MENU li:last-child {
+	display:none;}
+.JSP_SPRY_DOCKET_MENU li:nth-last-child(2) {
+	border-top:0;	
+	border-right:0;
+	border-bottom:0;}
+a.JSP_FORMS_IBUTTON {
+	background-color:#16bc00;}
+a.JSP_FORMS_IBUTTON:hover {
+	background-color:#090;}	
+
+	
+
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+.header {
+	background-color:#0093dd;	
+	color:white;}
+.header .menu .support {
+	background-color:#16bc00;
+	color:#fff;}
+
+
+.JSP_DISPLAY_DRAWER {
+	background-color:white;}
+	
+
+.main-container li.left-pane {
+	background-color:white;}
+	
+
+.left-pane .badge .docket .JSP_ASCII:hover {
+	color:#0093dd;}	
+	
+
+.left-pane dd a:hover,
+.left-pane dd a:active {
+	background-color:#F7F7F7;}	
+.right-pane ul.page-menu li a:hover,
+.right-pane .page-content .btn-menu:hover {
+	background-color:#F7F7F7;}
+
+
+.left-pane dd a#selected {
+	background-color:#fcfcfc;
+	border:solid thin #ddd;		
+	border-left:solid 5px #0093dd;}
+.right-pane ul.page-menu li a#selected {
+	background-color:#fcfcfc;
+	border:solid thin #ddd;		
+	border-bottom:solid #0093dd;}

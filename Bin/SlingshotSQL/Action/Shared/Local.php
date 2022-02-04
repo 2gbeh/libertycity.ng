@@ -1,0 +1,3 @@
+<?php
+CORE_ACCESS_ADMIN(JSP_PAGE_FILE);
+?>

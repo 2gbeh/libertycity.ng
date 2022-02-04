@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	padding:0; 
+	margin:0;
+	color:#333;	
+	font:100%/1.4 "Segoe UI","Segoe UI Light","Segoe Script";}
+
+
+.header {
+	padding:10px 20px;
+	box-shadow:0 2px 0 0 #ccc;
+	position:relative;
+	z-index:99;}
+.header .appname {
+    font-size:18px;
+	line-height:0.5;
+	display:inline-block;}
+.header .menu {
+	text-align:center;
+	position:relative;	
+	float:right;}	
+
+
+.header .menu .menu-icon img {
+	width:18px;}
+.header .menu .menu-icon:hover {
+	cursor:pointer;}
+
+
+.header .menu .support {
+	margin:20px;
+	text-align:left;
+	width:300px;
+	box-shadow:0 2px 2px 0 #ddd;
+	position:absolute;
+	top:15px;
+	right:-15px;
+	z-index:99;
+	display:none;}
+.header .menu .support .version {
+	padding:10px 10px 0;
+	float:left;
+	text-transform:uppercase;
+	font-size:12px;}	
+.header .menu .support .cancel {
+	padding:0 10px;
+	text-align:right;
+	font-size:24px;}	
+.header .menu .support .support-icon:hover {
+	color:#ccc;
+	cursor:pointer;}	
+.header .menu .support .title {
+	padding:0 20px 5px;
+	font-size:20px;}
+.header .menu .support .message {
+	padding:0 20px 20px;
+	/*font-size:12px;*/}
+	
+
+.main-container li.left-pane {
+	width:250px;
+	min-width:250px;
+	border-right:solid thin #ddd;
+	height:100%;
+	overflow-x:auto;	
+	overflow-y:auto;
+	z-index:99;}
+.main-container li.right-pane {
+	width:78%;	
+	margin:0 20px;}
+.overflow {
+	overflow:auto;}
+
+
+.left-pane .badge {
+	padding:10px;}
+.left-pane .badge input {
+	width:100%;
+	display:block;}
+
+
+
+.left-pane dl {
+	text-transform:capitalize;}
+.left-pane dt {
+	padding:5px 20px;}
+.left-pane dd a {
+	padding:5px 40px;
+	border:solid thin transparent;
+	border-left:solid 5px transparent;	
+	display:block;}	
+.left-pane dd {
+	margin:0;}
+
+
+.left-pane .package {
+	padding:20px 20px 0;}
+	
+.left-pane .impressum { 
+    
+	padding:10px 20px;
+	margin-bottom:30%;
+	color:#666;
+/*	font-size:12px;*/}
+
+	
+.right-pane .page-title {
+	padding:20px 10px;
+	text-transform:capitalize;
+	font-size:24px;
+	line-height:0.5;
+	border-bottom:solid thin #ddd;}
+.right-pane ul.page-menu {
+	padding:0 10px;}	
+.right-pane ul.page-menu li a {
+	padding:5px 15px;
+	text-transform:capitalize;
+	border:solid thin transparent;
+	border-bottom:solid transparent;
+	display:block;}	
+
+
+
+.right-pane .page-content {
+	margin:20px 0 40px;}
+.right-pane .page-content .btn-menu {
+	background-color:#FFF;
+	padding:5px 15px;
+	margin:0;
+	text-transform:capitalize;
+	font:100%/1.4 "Segoe UI","Segoe UI Light","Segoe Script";
+	border:solid thin #ddd;
+	border-bottom:solid #ddd;}
+
+
+
+.right-pane form legend {
+	padding:0 10px;
+	margin:10px;}
+.right-pane form label {
+	padding:10px 0;}	
+.right-pane form input,
+.right-pane form select,
+.right-pane form textarea {
+	width:100%;
+	display:block;}
+.right-pane form .info {
+	padding:5px;
+	color:#999;}
+.right-pane form input[type="submit"],
+.right-pane form input[type="reset"] {
+	padding:10px 25px;
+	margin:10px;
+	margin-left:0;
+	width:auto;	
+	height:auto;
+	font-size:14px;	
+	font-weight:normal;
+    display:inline-block;}

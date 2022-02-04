@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+.chartarea {
+	margin:20px;
+	width:300px;}
+.chartarea .title {
+	padding:0 0 5px 0;
+	margin:10px 0;
+	color:#666;
+	border-bottom:solid thin #999;}	
+.chartarea .subtitle {
+	padding:10px 0;
+	color:#999;
+	text-align:right;}	
